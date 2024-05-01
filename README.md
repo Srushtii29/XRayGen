@@ -30,7 +30,7 @@ ReportLab - The library used for generating PDF reports.
 
 Website:- 
 
-Signup Page:
+1.Signup Page:
 ![Screenshot 2024-05-02 005901](https://github.com/Srushtii29/XRayGen/assets/161300923/58198130-b7d8-4178-a3be-04be3802c315)
 
 This image depicts a sign-up form for a website or application. The form is presented in a sleek and modern design with a dark background and contrasting blue and orange circular elements.
@@ -45,3 +45,17 @@ After filling out all the required information, users can click the "Signup" but
 Additionally, there is a line of text at the bottom that says "I already have an account," which likely serves as a link or button to navigate to the login page for existing users.
 The design incorporates circular shapes with contrasting colors (blue and orange) to create a visually appealing and modern look for the sign-up form.
 Overall, this image represents a typical sign-up or registration page commonly found on websites or applications, where new users can enter their credentials to create an account and gain access to the platform's features and services.
+2.Login Page:
+![Screenshot 2024-05-02 005908](https://github.com/Srushtii29/XRayGen/assets/161300923/adccf8fe-a730-4085-8248-61d5a1291432)
+The image represents a login form, which is typically accessed when a user already has an existing account on a website or application. This login page is likely the destination when a user clicks on the "I already have an account" link from the sign-up or registration page shown in the previous image.
+The login form has a similar modern and sleek design with a dark background and contrasting blue and orange circular elements. At the top, the heading "Login Here" indicates that this form is for existing users to authenticate themselves and gain access to the platform.
+The form contains two input fields:
+
+Username: A text field where users can enter their registered username. In the example, the placeholder text "test@123" is displayed.
+Password: A password field where users can enter their account password. As a security measure, the password characters are masked and displayed as dots.
+
+After entering their username and password, users can click the "Log In" button to submit their credentials and access their account.
+Additionally, there is a line of text at the bottom that says "Create an account," which likely serves as a link or button to navigate to the sign-up or registration page for new users who don't have an existing account yet.
+The design maintains a consistent visual style with the previous sign-up form, utilizing circular shapes and contrasting colors to create an appealing and modern look for the login page.
+Overall, this image represents the login page, which is a common component of most websites and applications. It allows existing users to authenticate themselves and access their accounts by entering their registered username and password credentials.
+When a new user signs up through the registration form, their entered information (username, email, password, etc.) is likely sent to the server-side application, which then stores these details in the AWS database associated with the application. Similarly, when an existing user logs in, their provided credentials (username and password) are checked against the user data stored in the AWS database for authentication.
