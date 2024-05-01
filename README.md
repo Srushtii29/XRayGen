@@ -126,3 +126,37 @@ Upload Image:
 Finally, there is an "Upload Image" button, which likely initiates the process of uploading the X-ray image and submitting the entered patient information for analysis or storage in the medical database.
 
 Overall, this user interface appears to be designed for healthcare professionals to efficiently analyze X-ray images, document patient details, and identify fracture locations in a structured manner. The collected information can be used for diagnosis, treatment planning, and maintaining comprehensive medical records for each patient.
+
+Console(Django Server)-
+![Screenshot 2024-05-02 012929](https://github.com/Srushtii29/XRayGen/assets/161300923/c8c7046b-ba82-426d-95ce-b60dab583823)
+This output appears to be from a server log or console, providing information about HTTP requests and responses, as well as output related to a machine learning model's prediction.
+Here's a breakdown of the information:
+
+HTTP Requests and Responses:
+
+The log entries show various GET and POST requests being made to different endpoints, such as /static/Logo.jpeg, /take_input/, /take_input/upload_broken_bones/.
+Each request includes the HTTP method (GET or POST), the endpoint path, the HTTP version (HTTP/1.1), the response status code (200 for successful requests), and the response payload size in bytes.
+There are also entries indicating "Broken pipe" errors, which typically occur when the connection between the client and server is unexpectedly terminated.
+
+
+Machine Learning Model Prediction:
+
+The log includes output related to a machine learning model's prediction.
+The predicted class label is "Oblique".
+Probabilities or scores are provided for three classes: "Comminuted" (0.29), "Oblique" (0.37), and "Transverse" (0.33).
+This output suggests that the machine learning model is being used to classify something, potentially related to bone fractures or images, into three categories: Comminuted, Oblique, and Transverse.
+
+
+Performance Metrics:
+
+The line "1/1 0s 165ms/step" appears to be indicating some performance metric, possibly the time taken to process a single step or iteration during training or inference.
+
+
+
+Based on the information provided in the log, it seems to be related to a web application or server that handles requests for static files (like images) and processes input data, potentially related to bone fracture analysis. The application appears to be using a machine learning model to classify the input data into different categories (Comminuted, Oblique, Transverse) and provide prediction probabilities for each class.
+However, without more context about the specific application or project, it's difficult to provide a more detailed explanation.
+
+Example of filled form and the generated report
+![Screenshot 2024-05-02 012912](https://github.com/Srushtii29/XRayGen/assets/161300923/368c79b2-a552-4707-9dc7-926b61797942)
+![Screenshot 2024-05-02 013022](https://github.com/Srushtii29/XRayGen/assets/161300923/058124c8-7482-4a49-9ca4-1624237afb46)
+The information provided in the user interface form for uploading X-ray images and entering patient details was used to generate this detailed medical report about the patient's fracture findings and recommended course of action. The report summarizes the key patient information entered through the form, such as the patient's name, age, gender, and consulting doctor, along with the analysis and assessment based on the uploaded X-ray image showing an oblique fracture of the tibia.
