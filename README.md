@@ -70,7 +70,7 @@ Upload JPG file: Upload the JPG image file of the X-ray or bone scan.
 Click "Upload & Predict": After uploading the image, initiate the prediction or analysis process.
 View generated report: Once the analysis is complete, you can view the generated report.
 Download Report: Finally, you can download the generated report.
-![Screenshot 2024-05-02 010824](https://github.com/Srushtii29/XRayGen/assets/161300923/6766b9bc-0196-4a55-96da-a0f0f024d4a3)
+![Screenshot 2024-05-02 010832](https://github.com/Srushtii29/XRayGen/assets/161300923/2917c05f-aff6-4d2c-9c51-22332b74289f)
 The above image appears to be the landing or home page of the XRayGen application. It promotes the feature of generating "Instant Bone X-ray Reports." The page highlights the following key points:
 
 It allows users to unlock instant and comprehensive reports for their bone X-rays.
