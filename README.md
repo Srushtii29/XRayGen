@@ -27,3 +27,7 @@ Django - The web framework used for this project.
 TensorFlow - The machine learning library used for fracture classification.
 AnyScale - The AI platform used for generating the medical report.
 ReportLab - The library used for generating PDF reports.
+
+Pages
+Signup Page:
+![Screenshot 2024-05-02 005901](https://github.com/Srushtii29/XRayGen/assets/161300923/58198130-b7d8-4178-a3be-04be3802c315)
