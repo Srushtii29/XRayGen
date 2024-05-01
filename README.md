@@ -83,4 +83,46 @@ Selecting label-
 
 The images provided appears to be showing options for selecting the type of medical document or imaging study. In the first image, there are two options displayed - one seems to be an X-ray or radiographic image of a spine or vertebral column, and the other appears to be an X-ray or radiographic image of a chest or thoracic cavity showing the ribcage and lungs.
 In this image below we can see various social media handles linked and email to be provided so me can regularly send new updates.
+
 In the second image, there is a text label stating "Broken Bones X-ray" which suggests that this option represents X-ray imaging studies related to fractures or broken bones. After that you can click on submit.
+
+
+Patient Information Form-
+![image](https://github.com/Srushtii29/XRayGen/assets/161300923/d99aa80e-7af1-46c7-a4fe-d30775a162d9)
+The patient needs to fill the patient information in this form
+The image appears to be a user interface for a medical application or software aimed at analyzing X-ray images and documenting patient information related to bone fractures or injuries. The interface consists of several fields and options that allow healthcare professionals or medical practitioners to input relevant data for a specific patient.
+
+Upload X-ray Image:
+The interface provides a section to upload an X-ray image file of the patient. This is likely the starting point for the analysis process, where the medical professional can upload the relevant X-ray image for examination.
+Patient Name:
+This field allows the user to enter the patient's name, which is essential for proper identification and record-keeping purposes.
+Gender:
+A drop-down menu is provided to select the patient's gender, either "Male" or "Female." This information can be useful for demographic analysis and tailoring certain medical considerations based on gender.
+Age:
+An input field is available to enter the patient's age. Age is a critical factor in medical diagnosis and treatment, as it can influence various aspects of patient care, such as bone density, healing rates, and potential complications.
+Consulting Doctor:
+This field allows the user to enter the name of the consulting doctor or healthcare professional responsible for the patient's care. This information can be useful for maintaining proper medical records and facilitating communication among healthcare providers.
+Fracture Location:
+One of the most important sections of the interface is the "Fracture Location" area, which provides a comprehensive list of bone options. The user can select the specific bone or body part where the fracture or injury is located. The options include:
+
+Thigh Bone
+Shin Bone
+Calf Bone
+Upper Arm Bone
+Forearm Bone
+Wrist Bone
+Ankle Bone
+Palm Bone
+Foot Bone
+Skull Bone
+Shoulder Bone
+Hip Bone
+Kneecap
+Spine Bone
+Tailbone
+
+Accurately identifying the fracture location is crucial for proper diagnosis, treatment planning, and documentation purposes.
+Upload Image:
+Finally, there is an "Upload Image" button, which likely initiates the process of uploading the X-ray image and submitting the entered patient information for analysis or storage in the medical database.
+
+Overall, this user interface appears to be designed for healthcare professionals to efficiently analyze X-ray images, document patient details, and identify fracture locations in a structured manner. The collected information can be used for diagnosis, treatment planning, and maintaining comprehensive medical records for each patient.
