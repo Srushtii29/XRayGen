@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Document Type</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <!---Navbar-->
+    <div class="navbar">
+        <div class="left-links">
+
+            <img src="{% static 'images/icon.png' %}" alt="User Icon" class="user-icon"
+                style="height: 50px; width:60px;">
+            <b>XRayGen</b>
+
+
+
+        </div>
+        <br />
+        <div class="right-links">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About Us</a>
+            <a href="#" class="nav-link">
+                <img src="{% static 'images/profileimg.png' %}" alt="User Icon" class="user-icon"
+                    style="height: 40px; width:40px;">
+
+            </a>
+
+        </div>
+    </div>
+    <!-- Carousel -->
+    <!-- style="width: 80%; margin: 0 auto; margin-top:1%; -->
+    <div class="cauroselclass" style=" background-color:#D5DEEF;padding-bottom:1%;padding-top:1%;">
+        <div class="cauroselwidth" style="width: 80%; margin: 0 auto; margin-top:1%;">
+            <div id=" carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" style="display: none;">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{% static 'images/slide2.png' %}" class="d-block w-100" alt="..." height="600px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'images/slide.png' %}" class="d-block w-100" alt="..." height="600px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'images/slide3.png' %}" class="d-block w-100" alt="..." height="600px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev" style="display: none;">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next" style="display: none;">
+                    <span class=" carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <form method="POST">
+        {% csrf_token %}
+        <h2>
+            <center>Select the Type of Medical document</center>
+        </h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="{% static 'images/x_ray.png' %}" alt="Broken Bones X-ray" class="card-img">
+                <div class="card__content">
+                    <p class="card__title">
+                        <input type="radio" id="broken_bones_radio" name="document_type" value="broken_bones">
+                        <label for="broken_bones_radio">Broken Bones X-ray</label>
+                    </p>
+                    <p class="card__description"> </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="{% static 'images/pnu_xray.jpeg' %}" alt="pnu_xray" class="card-img">
+                <div class="card__content">
+                    <p class="card__title"><input type="radio" name="document_type" value="pneumonia_xray"> Pneumonia
+                        Chest X-ray</p>
+                    <p class="card__description"> <center>Under development</center> </p>
+
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <div class="sub-btn">
+                <input type="submit" value="Select">
+            </div>
+        </center>
+        <br />
+    </form>
+       <!--bottom of your existing HTML -->
+       <div class="footer-container">
+        <div class="footer-input">
+            <label for="email" style="padding-left: 2%;">Mail us:</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+            <button>
+                <span class="transition"></span>
+                <span class="gradient"></span>
+                <span class="label">Send Updates</span>
+            </button>
+            <br />
+            <h4 style="padding-left: 2%;">Social Media:</h4>
+            <div class="social-media">
+                <ul class="example-2">
+                    <li class="icon-content">
+                        <a data-social="spotify" aria-label="Spotify" href="https://www.spotify.com/">
+                            <div class="filled"></div>
+                            <svg viewBox="0 0 448 512" height="1em">
+                                <path fill="currentColor"
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">LinkedIn</div>
+                    </li>
+                    <li class="icon-content">
+                        <a data-social="pinterest" aria-label="Pinterest" href="https://www.pinterest.com/">
+                            <div class="filled"></div>
+                            <svg xml:space="preserve" viewBox="0 0 100 100" version="1.1">
+                                <path fill="currentColor"
+                                    d="M83,17.8C74.5,8.9,63.4,4.3,50,4.1C37.7,4.2,26.8,8.6,17.9,17.3C8.9,26,4.3,37,4.1,50c0,0,0,0,0,0c0,9.1,2.5,17.4,7.4,24.9  c4.9,7.4,11.6,13.2,20.1,17.1c0.3,0.1,0.7,0.1,1-0.1c0.3-0.2,0.5-0.5,0.5-0.8l0-4.9c0.1-2.1,0.7-5.3,1.7-9.5c1-4,1.7-6.7,1.9-7.6  c0.7-3,1.7-7.2,3-12.6c0.1-0.2,0-0.5-0.1-0.7c-0.4-0.8-1-2.6-1.5-6.6c0.1-2.7,0.8-5.2,2.1-7.3c1.2-2,3.1-3.1,5.7-3.5  c2,0.1,4.7,0.8,5.1,5.9c-0.1,1.8-0.8,4.5-1.9,8.1c-1.2,3.8-1.9,6.3-2.1,7.6c-0.7,2.5-0.2,4.8,1.5,6.8c1.6,1.9,3.8,2.9,6.5,3.1  c4.3-0.1,8.1-2.6,11.2-7.5c1.7-3,2.9-6.3,3.5-9.7c0.7-3.4,0.7-7.1,0-10.8c-0.7-3.8-2.2-7.1-4.5-9.8c0,0-0.1-0.1-0.1-0.1  c-4.3-3.7-9.5-5.3-15.6-5c-6,0.4-11.3,2.6-15.9,6.6c-2.9,3.2-4.8,7.1-5.7,11.6c-0.9,4.6,0,9.1,2.6,13.3c0.3,0.5,0.5,0.8,0.6,1  c0,0.3,0,1-0.5,2.8c-0.5,1.8-0.9,2.2-0.9,2.2c0,0-0.1,0-0.1,0.1c0,0-0.2,0-0.4-0.1c-2.2-1-3.9-2.4-5.2-4.2c-1.3-1.9-2.1-4-2.5-6.3  c-0.3-2.5-0.4-5-0.3-7.5c0.2-2.5,0.7-5.1,1.4-7.7c3-6.9,8.5-11.9,16.3-14.8c7.8-2.9,16-3.2,24.3-0.8c6.5,2.8,11,7.4,13.6,13.7  c2.5,6.4,2.8,13.4,0.8,20.8c-2.2,7.1-6.4,12.4-12.1,15.7c-5.6,2.8-10.8,3-15.7,0.7c-1.8-1.1-3.1-2.3-3.9-3.5c-0.2-0.3-0.6-0.5-1-0.5  c-0.4,0.1-0.7,0.3-0.8,0.7c-0.7,2.7-1.3,4.7-1.6,6.2c-1.4,5.4-2.6,9.2-3.4,11c-0.8,1.6-1.6,3.1-2.4,4.3c-0.2,0.3-0.2,0.6-0.1,0.9  s0.3,0.5,0.6,0.6c4.3,1.3,8.7,2,13,2c12.4-0.1,23.2-4.6,32.1-13.4C91.1,73.9,95.8,62.9,96,50C95.9,37.5,91.5,26.7,83,17.8z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">Pintrest</div>
+                    </li>
+                    <li class="icon-content">
+                        <a data-social="dribbble" aria-label="Dribbble" href="https://dribbble.com/">
+                            <div class="filled"></div>
+                            <svg fill="white" class="svgIcon" viewBox="0 0 448 512" height="1.5em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">Instagram</div>
+                    </li>
+                    <li class="icon-content">
+                        <a data-social="telegram" aria-label="Telegram" href="https://telegram.org/">
+                            <div class="filled"></div>
+                            <svg viewBox="0 0 100 100" version="1.1">
+                                <path fill="currentColor"
+                                    d="M95,9.9c-1.3-1.1-3.4-1.2-7-0.1c0,0,0,0,0,0c-2.5,0.8-24.7,9.2-44.3,17.3c-17.6,7.3-31.9,13.7-33.6,14.5  c-1.9,0.6-6,2.4-6.2,5.2c-0.1,1.8,1.4,3.4,4.3,4.7c3.1,1.6,16.8,6.2,19.7,7.1c1,3.4,6.9,23.3,7.2,24.5c0.4,1.8,1.6,2.8,2.2,3.2  c0.1,0.1,0.3,0.3,0.5,0.4c0.3,0.2,0.7,0.3,1.2,0.3c0.7,0,1.5-0.3,2.2-0.8c3.7-3,10.1-9.7,11.9-11.6c7.9,6.2,16.5,13.1,17.3,13.9  c0,0,0.1,0.1,0.1,0.1c1.9,1.6,3.9,2.5,5.7,2.5c0.6,0,1.2-0.1,1.8-0.3c2.1-0.7,3.6-2.7,4.1-5.4c0-0.1,0.1-0.5,0.3-1.2  c3.4-14.8,6.1-27.8,8.3-38.7c2.1-10.7,3.8-21.2,4.8-26.8c0.2-1.4,0.4-2.5,0.5-3.2C96.3,13.5,96.5,11.2,95,9.9z M30,58.3l47.7-31.6  c0.1-0.1,0.3-0.2,0.4-0.3c0,0,0,0,0,0c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.1,0,0.2-0.1c-0.1,0.1-0.2,0.4-0.4,0.6L66,38.1  c-8.4,7.7-19.4,17.8-26.7,24.4c0,0,0,0,0,0.1c0,0-0.1,0.1-0.1,0.1c0,0,0,0.1-0.1,0.1c0,0.1,0,0.1-0.1,0.2c0,0,0,0.1,0,0.1  c0,0,0,0,0,0.1c-0.5,5.6-1.4,15.2-1.8,19.5c0,0,0,0,0-0.1C36.8,81.4,31.2,62.3,30,58.3z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">Telegram</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+        
+
+    </div>
+
+    <footer>
+        <p>©XRayGen</p>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
