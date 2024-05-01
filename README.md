@@ -28,8 +28,8 @@ TensorFlow - The machine learning library used for fracture classification.
 AnyScale - The AI platform used for generating the medical report.
 ReportLab - The library used for generating PDF reports.
 
-Website:- 
 
+Credentials-
 1.Signup Page:
 ![Screenshot 2024-05-02 005901](https://github.com/Srushtii29/XRayGen/assets/161300923/58198130-b7d8-4178-a3be-04be3802c315)
 
@@ -59,3 +59,20 @@ Additionally, there is a line of text at the bottom that says "Create an account
 The design maintains a consistent visual style with the previous sign-up form, utilizing circular shapes and contrasting colors to create an appealing and modern look for the login page.
 Overall, this image represents the login page, which is a common component of most websites and applications. It allows existing users to authenticate themselves and access their accounts by entering their registered username and password credentials.
 When a new user signs up through the registration form, their entered information (username, email, password, etc.) is likely sent to the server-side application, which then stores these details in the AWS database associated with the application. Similarly, when an existing user logs in, their provided credentials (username and password) are checked against the user data stored in the AWS database for authentication.
+Website- 
+![Screenshot 2024-05-02 010805](https://github.com/Srushtii29/XRayGen/assets/161300923/1692c57e-5194-4382-adeb-13fe5a3ee075)
+This image indicates a image from the caurosel
+Above image shows a step-by-step guide on "How to Use" the XRayGen application or service. It outlines six steps for generating bone X-ray reports:
+
+Select document type: Choose the type of document or report you want to generate.
+Fill basic info: Provide basic information about the person the report is for.
+Upload JPG file: Upload the JPG image file of the X-ray or bone scan.
+Click "Upload & Predict": After uploading the image, initiate the prediction or analysis process.
+View generated report: Once the analysis is complete, you can view the generated report.
+Download Report: Finally, you can download the generated report.
+![Screenshot 2024-05-02 010824](https://github.com/Srushtii29/XRayGen/assets/161300923/6766b9bc-0196-4a55-96da-a0f0f024d4a3)
+The above image appears to be the landing or home page of the XRayGen application. It promotes the feature of generating "Instant Bone X-ray Reports." The page highlights the following key points:
+
+It allows users to unlock instant and comprehensive reports for their bone X-rays.
+Users can easily navigate through various fracture types.
+It offers a swift and efficient way to analyze bone imaging.
