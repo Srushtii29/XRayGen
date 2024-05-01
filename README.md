@@ -76,3 +76,7 @@ The above image appears to be the landing or home page of the XRayGen applicatio
 It allows users to unlock instant and comprehensive reports for their bone X-rays.
 Users can easily navigate through various fracture types.
 It offers a swift and efficient way to analyze bone imaging.
+
+Selecting label-
+![Screenshot 2024-05-02 010824](https://github.com/Srushtii29/XRayGen/assets/161300923/6766b9bc-0196-4a55-96da-a0f0f024d4a3)
+![image](https://github.com/Srushtii29/XRayGen/assets/161300923/8b37a256-87be-4181-8f9c-1e8e3c7de645)
