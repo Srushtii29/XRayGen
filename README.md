@@ -80,6 +80,7 @@ It offers a swift and efficient way to analyze bone imaging.
 Selecting label-
 ![Screenshot 2024-05-02 010824](https://github.com/Srushtii29/XRayGen/assets/161300923/6766b9bc-0196-4a55-96da-a0f0f024d4a3)
 ![image](https://github.com/Srushtii29/XRayGen/assets/161300923/8b37a256-87be-4181-8f9c-1e8e3c7de645)
+
 The images provided appears to be showing options for selecting the type of medical document or imaging study. In the first image, there are two options displayed - one seems to be an X-ray or radiographic image of a spine or vertebral column, and the other appears to be an X-ray or radiographic image of a chest or thoracic cavity showing the ribcage and lungs.
 In this image below we can see various social media handles linked and email to be provided so me can regularly send new updates.
 In the second image, there is a text label stating "Broken Bones X-ray" which suggests that this option represents X-ray imaging studies related to fractures or broken bones. After that you can click on submit.
