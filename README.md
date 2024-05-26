@@ -30,6 +30,7 @@ ReportLab - The library used for generating PDF reports.
 
 
 Credentials-
+
 1.Signup Page:
 ![Screenshot 2024-05-02 005901](https://github.com/Srushtii29/XRayGen/assets/161300923/58198130-b7d8-4178-a3be-04be3802c315)
 
@@ -60,6 +61,7 @@ Additionally, there is a line of text at the bottom that says "Create an account
 The design maintains a consistent visual style with the previous sign-up form, utilizing circular shapes and contrasting colors to create an appealing and modern look for the login page.
 Overall, this image represents the login page, which is a common component of most websites and applications. It allows existing users to authenticate themselves and access their accounts by entering their registered username and password credentials.
 When a new user signs up through the registration form, their entered information (username, email, password, etc.) is likely sent to the server-side application, which then stores these details in the AWS database associated with the application. Similarly, when an existing user logs in, their provided credentials (username and password) are checked against the user data stored in the AWS database for authentication.
+
 Website- 
 ![Screenshot 2024-05-02 010805](https://github.com/Srushtii29/XRayGen/assets/161300923/1692c57e-5194-4382-adeb-13fe5a3ee075)
 This image indicates a image from the caurosel
@@ -88,10 +90,12 @@ In this image below we can see various social media handles linked and email to 
 In the second image, there is a text label stating "Broken Bones X-ray" which suggests that this option represents X-ray imaging studies related to fractures or broken bones. After that you can click on submit.
 
 
+
 Patient Information Form-
 ![image](https://github.com/Srushtii29/XRayGen/assets/161300923/d99aa80e-7af1-46c7-a4fe-d30775a162d9)
 The patient needs to fill the patient information in this form
 The image appears to be a user interface for a medical application or software aimed at analyzing X-ray images and documenting patient information related to bone fractures or injuries. The interface consists of several fields and options that allow healthcare professionals or medical practitioners to input relevant data for a specific patient.
+
 
 Upload X-ray Image:
 The interface provides a section to upload an X-ray image file of the patient. This is likely the starting point for the analysis process, where the medical professional can upload the relevant X-ray image for examination.
