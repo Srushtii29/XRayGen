@@ -161,3 +161,6 @@ Example of filled form and the generated report
 ![Screenshot 2024-05-02 013022](https://github.com/Srushtii29/XRayGen/assets/161300923/058124c8-7482-4a49-9ca4-1624237afb46)
 The information provided in the user interface form for uploading X-ray images and entering patient details was used to generate this detailed medical report about the patient's fracture findings and recommended course of action. The report summarizes the key patient information entered through the form, such as the patient's name, age, gender, and consulting doctor, along with the analysis and assessment based on the uploaded X-ray image showing an oblique fracture of the tibia.
 
+Note:
+Change the following variable with your own anyscale api key of mistral-7b-it model:
+ANYSCALE_API_KEY = "esecret_5dq4ssflzpfqpcyl2c1zk5sqy4"
