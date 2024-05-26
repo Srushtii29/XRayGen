@@ -1,4 +1,4 @@
-Bone Fracture Detection and Report Generation
+Bone Fracture Detection and Report Generation :
 This project is a Django-based web application that allows users to upload X-ray images of broken bones and automatically generates a medical report based on the detected fracture type. The application utilizes machine learning models, including a deep learning model (my_model.h5) for classifying fractures as oblique, transverse, or comminuted, and provides a detailed report with relevant information for healthcare professionals.
 Features
 
