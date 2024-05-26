@@ -45,6 +45,7 @@ After filling out all the required information, users can click the "Signup" but
 Additionally, there is a line of text at the bottom that says "I already have an account," which likely serves as a link or button to navigate to the login page for existing users.
 The design incorporates circular shapes with contrasting colors (blue and orange) to create a visually appealing and modern look for the sign-up form.
 Overall, this image represents a typical sign-up or registration page commonly found on websites or applications, where new users can enter their credentials to create an account and gain access to the platform's features and services.
+
 2.Login Page:
 ![Screenshot 2024-05-02 005908](https://github.com/Srushtii29/XRayGen/assets/161300923/adccf8fe-a730-4085-8248-61d5a1291432)
 The image represents a login form, which is typically accessed when a user already has an existing account on a website or application. This login page is likely the destination when a user clicks on the "I already have an account" link from the sign-up or registration page shown in the previous image.
