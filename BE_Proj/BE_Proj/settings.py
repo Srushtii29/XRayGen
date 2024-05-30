@@ -80,10 +80,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'bones',
-        'USER': 'admin',
-        'PASSWORD': 'Xraygen29*#',
-        'HOST': 'xraygenmain.cp8qiqq2i0bd.eu-north-1.rds.amazonaws.com',  # or the hostname where your MySQL server is running
-        'PORT': '3306',      # or the port on which your MySQL server is listening
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',  # or the hostname where your MySQL server is running
+        'PORT': '',      # or the port on which your MySQL server is listening
     }
 }
 
